@@ -1,5 +1,6 @@
 # tg-broadcast-limits
->Node.js class that helps sending Telegram bulk messages without hitting limits and 429 errors.
+[![NPM Version][npm-image]][npm-url]
+>Node.js module that helps sending Telegram bulk messages without hitting limits and 429 errors.
 
 ## Install
 ```bash
@@ -11,3 +12,6 @@ You can read about the limits on the official [Telegram website](https://core.te
 
 ## License
 [MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/@crcr/tg-broadcast-limits?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@crcr/tg-broadcast-limits
