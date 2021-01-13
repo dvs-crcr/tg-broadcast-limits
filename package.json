@@ -1,0 +1,27 @@
+{
+  "name": "@crcr/tg-broadcast-limits",
+  "version": "1.0.0",
+  "description": "Class that helps sending Telegram bulk messages without hitting limits and 429 errors.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvs-crcr/tg-broadcast-limits.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot-api",
+    "javascript",
+    "typescript"
+  ],
+  "author": "dvs <dvs@crcr.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvs-crcr/tg-broadcast-limits/issues"
+  },
+  "homepage": "https://github.com/dvs-crcr/tg-broadcast-limits#readme",
+  "dependencies": {
+    "@crcr/utils": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.20"
+  }
+}
