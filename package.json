@@ -1,6 +1,6 @@
 {
   "name": "@crcr/tg-broadcast-limits",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Class that helps sending Telegram bulk messages without hitting limits and 429 errors.",
   "repository": {
     "type": "git",

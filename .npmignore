@@ -1,3 +1,3 @@
-*.ts
+index.ts
 .gitignore
 tsconfig.json
