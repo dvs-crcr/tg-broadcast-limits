@@ -59,7 +59,12 @@ export default class TBL {
     this._cache[0] = now;
     this._event.emit(TBL.EVENTS.DONE);
     this._event.emit(TBL.EVENTS.PUSH);
-    job.callback(job.data);
+    if (job.data) {
+      job.callback(...job.data);
+    } else {
+      job.callback();
+    }
+    
   }
 
   _checkJobLimits = () => {
