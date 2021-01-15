@@ -29,6 +29,10 @@ broadcast(token, chatIds, 'Hello from dvs!');
 ```
 
 ## Telegram Broadcast limits
+Used limit values:
+* 20 msg per minute in same group;
+* 1 msg per second in same chat;
+* 30 msg per second in any chat.
 >You can read about the limits on the official [Telegram website](https://core.telegram.org/bots/faq#broadcasting-to-users).
 
 ## License
